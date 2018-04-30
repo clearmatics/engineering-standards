@@ -44,7 +44,7 @@
 
 [1]: https://chris.beams.io/posts/git-commit/#seven-rules
 [2]: https://help.github.com/articles/signing-commits-using-gpg/
-[3]: https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+[3]: http://nvie.com/posts/a-successful-git-branching-model/
 [4]: https://blog.golang.org/go-fmt-your-code
 [5]: https://github.com/golang/dep
 [6]: https://travis-ci.org/
