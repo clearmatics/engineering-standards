@@ -14,6 +14,7 @@
 * Use [`dep`][5] for dependency management
 
 ## Python
+* Use [Pylint][pylint] on your code
 * Follow the [PEP 8][PEP8] guide
 
 ## Node.js
@@ -60,3 +61,4 @@
 [14]: https://docs.travis-ci.com/user/status-images/
 [solhint]: https://github.com/protofire/solhint
 [PEP8]: https://www.python.org/dev/peps/pep-0008/
+[pylint]: https://www.pylint.org/
