@@ -48,8 +48,8 @@
 [4]: https://blog.golang.org/go-fmt-your-code
 [5]: https://github.com/golang/dep
 [6]: https://travis-ci.org/
-[5]: https://www.docker.com/
-[6]: https://hub.docker.com/
+[7]: https://www.docker.com/
+[8]: https://hub.docker.com/
 [9]: https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/
 [10]: https://gist.github.com/PurpleBooth/b24679402957c63ec426
 [11]: https://help.github.com/articles/adding-a-license-to-a-repository/
