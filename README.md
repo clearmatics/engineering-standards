@@ -19,7 +19,7 @@
 ## Node.js
 
 ## Solidity
-
+* Use [Solhint][solhint] to lint your contracts
 
 ## Testing
 
@@ -58,4 +58,5 @@
 [12]: https://blog.github.com/2016-02-17-issue-and-pull-request-templates/
 [13]: https://gist.github.com/PurpleBooth/109311bb0361f32d87a2
 [14]: https://docs.travis-ci.com/user/status-images/
+[solhint]: https://github.com/protofire/solhint
 [PEP8]: https://www.python.org/dev/peps/pep-0008/
