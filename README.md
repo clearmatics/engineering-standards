@@ -7,6 +7,7 @@
 * Use the [git flow][3] branching strategy
 * Master branches are protected 
 * 1 review is required before merging 
+* Delete branch after accepting merge request
 
 ## Go
 
@@ -14,13 +15,17 @@
 * Use [`dep`][5] for dependency management
 
 ## Python
-
+* Use [Pylint][pylint] on your code
+* Follow the [PEP 8][PEP8] guide
 
 ## Node.js
 
 ## Solidity
+
 * Follow the Solidity [coding style][15]
 * Follow smart contract [best practices][16], tools, engineering convention and other
+* Use [Solhint][solhint] to lint your contracts
+
 
 ## Testing
 
@@ -61,3 +66,6 @@
 [14]: https://docs.travis-ci.com/user/status-images/
 [15]: http://solidity.readthedocs.io/en/develop/style-guide.html
 [16]: https://consensys.github.io/smart-contract-best-practices/
+[solhint]: https://github.com/protofire/solhint
+[PEP8]: https://www.python.org/dev/peps/pep-0008/
+[pylint]: https://www.pylint.org/
