@@ -19,8 +19,8 @@
 ## Node.js
 
 ## Solidity
-* Here is the Solidity [coding style][15]
-* Smart contract [best practices][16], tools, engineering tips and other
+* Follow the Solidity [coding style][15]
+* Follow smart contract [best practices][16], tools, engineering convention and other
 
 ## Testing
 
