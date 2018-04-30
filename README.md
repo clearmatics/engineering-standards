@@ -7,6 +7,7 @@
 * Use the [git flow][3] branching strategy
 * Master branches are protected 
 * 1 review is required before merging 
+* Delete branch after accepting merge request
 
 ## Go
 
