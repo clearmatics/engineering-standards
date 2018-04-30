@@ -21,7 +21,11 @@
 ## Node.js
 
 ## Solidity
+
+* Follow the Solidity [coding style][15]
+* Follow smart contract [best practices][16], tools, engineering convention and other
 * Use [Solhint][solhint] to lint your contracts
+
 
 ## Testing
 
@@ -60,6 +64,8 @@
 [12]: https://blog.github.com/2016-02-17-issue-and-pull-request-templates/
 [13]: https://gist.github.com/PurpleBooth/109311bb0361f32d87a2
 [14]: https://docs.travis-ci.com/user/status-images/
+[15]: http://solidity.readthedocs.io/en/develop/style-guide.html
+[16]: https://consensys.github.io/smart-contract-best-practices/
 [solhint]: https://github.com/protofire/solhint
 [PEP8]: https://www.python.org/dev/peps/pep-0008/
 [pylint]: https://www.pylint.org/
