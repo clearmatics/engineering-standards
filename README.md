@@ -20,6 +20,19 @@
 
 ## Node.js
 
+* Use ES6 features (ES6 is the same as ECMAScript 2015, and ECMAScript 6) as described in [MDN web docs][mozilla_es6], or better in the [official ECMA][official_es6]
+* Use a [eslint][eslint] witht the [AirBnB][eslint_airbnb] style
+* Add NPM scripts (for everything that it is needed and possible)
+* Install packages locally (avoid using global packages)
+
+## Frontend
+
+* Use [webcomponents][mozilla_webcomponents] when possible ([React](https://reactjs.org/), [Vue](https://vuejs.org/) and similar are acceptable and more widely supported)
+* More simple components is better than large complex components (each component should do one thing only)
+* Manage the state of the webapp separately from the UI (and document it in the code)
+* Use JS bundlers (like [webpack](https://webpack.js.org/))
+* Create clear README on how to build and deploy the frontend
+
 ## Solidity
 
 * Follow the Solidity [coding style][15]
@@ -69,3 +82,8 @@
 [solhint]: https://github.com/protofire/solhint
 [PEP8]: https://www.python.org/dev/peps/pep-0008/
 [pylint]: https://www.pylint.org/
+[eslint]: https://eslint.org/
+[eslint_airbnb]: https://github.com/airbnb/javascript
+[mozilla_es6]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_2015_support_in_Mozilla
+[official_es6]: http://www.ecma-international.org/ecma-262/6.0/index.html
+[mozilla_webcomponents]: https://developer.mozilla.org/en-US/docs/Web/Web_Components
