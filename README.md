@@ -62,6 +62,7 @@
 * [Add `ISSUE_TEMPLATE.md` and `PULL_REQUEST_TEMPLATE.md` files][12]
 * [Add a `README.md` file][13]
 * [Add Travis CI badge to `README.md`][14]
+* Do not require [signed commits][githubsignedcommits]
 
 [1]: https://chris.beams.io/posts/git-commit/#seven-rules
 [2]: https://help.github.com/articles/signing-commits-using-gpg/
@@ -87,3 +88,4 @@
 [mozilla_es6]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_2015_support_in_Mozilla
 [official_es6]: http://www.ecma-international.org/ecma-262/6.0/index.html
 [mozilla_webcomponents]: https://developer.mozilla.org/en-US/docs/Web/Web_Components
+[githubsignedcommits]: https://help.github.com/articles/enabling-required-commit-signing/
