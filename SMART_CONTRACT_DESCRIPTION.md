@@ -2,6 +2,8 @@
 
 Debating the way a mechanism to be implemented in a smart contract can be simplified by using Finite State Machines (FSM) as a visual language. Although being a basic concept of Computer Science it might be relevant to have this written somewhere, and by default use this as a standard way to describe how smart contracts operate.
 
+State Machines are useful in describing a smart contract state, and its changes, mechanisms that are external to a smart contract are defined by other state machines. Meaning that each smart contract should have its own state machine description, if it depends on the execution of other smart contracts, that is considered an input or action that needs to take place.
+
 Finite State Machines are composed of:
 * State: Represented by a circle and ID in the center
   * State of the smart contract (defined by the state of its data)
