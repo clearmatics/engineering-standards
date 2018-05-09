@@ -35,6 +35,7 @@
 
 ## Solidity
 
+* Use a [common language][sm_desc] when talking about smart contracts
 * Follow the Solidity [coding style][15]
 * Follow smart contract [best practices][16], tools, engineering convention and other
 * Use [Solhint][solhint] to lint your contracts
@@ -89,3 +90,4 @@
 [official_es6]: http://www.ecma-international.org/ecma-262/6.0/index.html
 [mozilla_webcomponents]: https://developer.mozilla.org/en-US/docs/Web/Web_Components
 [githubsignedcommits]: https://help.github.com/articles/enabling-required-commit-signing/
+[sm_desc]: SMART_CONTRACT_DESCRIPTION.md

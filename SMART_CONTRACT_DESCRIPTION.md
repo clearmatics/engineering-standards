@@ -8,7 +8,7 @@ Finite State Machines are composed of:
 * State: Represented by a circle and ID in the center
   * State of the smart contract (defined by the state of its data)
 * Transition: Represented by an arrow
-  * Indicate posible next states
+  * Indicate possible next states
 * Actions: *Close*, *Reveal*, *Pay*, *Cancel*
   * Action (one or multiple function calls) that pushes transaction to happen
 * Guards: [A > B]
@@ -23,7 +23,7 @@ This FSM is made of:
   * ABB - Accepting Blind Bids (a blind bid is a unknown hashed value)
   * RB - Revealing Bids (revealing a bid is giving proof that you know what was the original value)
   * F - Finished (winner of the bid as been determined)
-  * C - Canceled (the bid as been canceled and funds returned)
+  * C - Cancelled (the bid as been cancelled and funds returned)
 * Transitions (represented by the arrows)
 * Actions (in italic)
   * Close - Closes the bidding period
@@ -32,17 +32,17 @@ This FSM is made of:
   * Reveal - Participant reveals the bid value
   * Withdraw - Participants can withdraw stakes
   * Finish - Finish bid reveal period
-  * CancelABB - Cancel Bid Acceptance
-  * CancelRB - Cancel Bid Reveal
+  * Cancel ABB - Cancel Bid Acceptance
+  * Cancel RB - Cancel Bid Reveal
 * Guards
-  * [depositStake >= 1ETH] - the stake desposited must be at least 1ETH
+  * [depositStake >= 1ETH] - the stake deposited must be at least 1ETH
   * [now > creationTime + 5 days] - now must be five days after creation date or more
-  * [values.length == secret.length] - don't really understand, but it ilustrates that the guards should be as obvious as possible!
+  * [values.length == secret.length] - don't really understand, but it illustrates that the guards should be as obvious as possible!
   * [ now >= creationTime + 10 days] - now must be ten days after creation date or more
 
 The detail of the finite state machine is up to the author, but there is a trade off between detail and clarity of the description.
 
-The main goal of this visual language is to be able to present mechanisms in a standardized way that can become clear to everyone, not to be an implementation of the smart contract.
+The main goal of this visual language is to be able to present mechanisms in a standardised way that can become clear to everyone, not to be an implementation of the smart contract.
 
 ---
 
