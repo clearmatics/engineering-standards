@@ -42,7 +42,7 @@ The detail of the finite state machine is up to the author, but there is a trade
 
 The main goal of this visual language is to be able to present mechanisms in a standardized way that can become clear to everyone, not to be an implementation of the smart contract.
 
-=========
+---
 
 Other goods notation standard to use on the mechanisms descriptions:
 * Proof of TxA - P(TxA)
