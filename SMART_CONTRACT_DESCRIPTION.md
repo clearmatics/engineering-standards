@@ -5,6 +5,10 @@ Debating the way a mechanism to be implemented in a smart contract can be simpli
 State Machines are useful in describing a smart contract state, and its changes, mechanisms that are external to a smart contract are defined by other state machines. Meaning that each smart contract should have its own state machine description, if it depends on the execution of other smart contracts, that is considered an input or action that needs to take place.
 
 Finite State Machines are composed of:
+* Chain: Represented by a solid line rectangle (may only be necessary for larger architecture designs)
+  * This shall encompass all smart contracts
+* Smart Contract: Represented by a dotted/dashed line rectangle
+  * This shall encompass all the possible different states and state transitions of the smart contract
 * State: Represented by a circle and ID in the center
   * State of the smart contract (defined by the state of its data)
 * Transition: Represented by an arrow
