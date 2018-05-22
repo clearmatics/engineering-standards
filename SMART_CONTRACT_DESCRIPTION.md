@@ -54,3 +54,7 @@ Other goods notation standard to use on the mechanisms descriptions:
 * Proof of TxA - P(TxA)
 * Alice Signed TxA - S(Alice,TxA)
 * Hashed value X - H(X)
+
+An example of usage of all components of our state machine diagrams is our interoperability atomic-swap contract.
+
+[[images/bidirectional-atomic-swap.png]]
