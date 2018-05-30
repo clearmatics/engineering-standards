@@ -12,7 +12,7 @@
 ## Go
 
 * [`go fmt` your code][4]
-* Use [`dep`][5] for dependency management
+* Use [`vgo`][5] for dependency management
 
 ## Python
 * Use [Pylint][pylint] on your code
@@ -69,7 +69,7 @@
 [2]: https://help.github.com/articles/signing-commits-using-gpg/
 [3]: http://nvie.com/posts/a-successful-git-branching-model/
 [4]: https://blog.golang.org/go-fmt-your-code
-[5]: https://github.com/golang/dep
+[5]: https://github.com/golang/go/issues/24301
 [6]: https://travis-ci.org/
 [7]: https://www.docker.com/
 [8]: https://hub.docker.com/
