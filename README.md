@@ -21,7 +21,7 @@
 ## Node.js
 
 * Use ES6 features (ES6 is the same as ECMAScript 2015, and ECMAScript 6) as described in [MDN web docs][mozilla_es6], or better in the [official ECMA][official_es6]
-* Use a [eslint][eslint] witht the [AirBnB][eslint_airbnb] style
+* Use a [eslint][eslint] with the [AirBnB][eslint_airbnb] style
 * Add NPM scripts (for everything that it is needed and possible)
 * Install packages locally (avoid using global packages)
 
