@@ -3,11 +3,22 @@
 ## Git 
 
 * Follow these [seven rules][1] for writing a commit message
+   >    1. Separate subject from body with a blank line
+   >    2. Limit the subject line to 50 characters
+   >    3. Capitalize the subject line
+   >    4. Do not end the subject line with a period
+   >    5. Use the imperative mood in the subject line
+   >    6. Wrap the body at 72 characters
+   >    7. Use the body to explain what and why vs. how
 * Use [signed commits][2]
 * Use the [git flow][3] branching strategy
+   * Branch out of dev for each feature/change you do
+   * Squash all the commits from the feature branch when merging (no need to have the whole history of a branch in there)
+   * Write clear and concise commit messages (this is hard!)
 * Master branches are protected 
 * 1 review is required before merging 
 * Delete branch after accepting merge request
+* *Always remember* there will be someone else going into the same repo that you are working on, and you will not want to have to explain what you have been doing
 
 ## Go
 
