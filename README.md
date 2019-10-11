@@ -24,6 +24,7 @@
 
 * [`go fmt` your code][4]
 * Use [`modules`][5] for dependency management
+* Prefer [naming fields while initialising a struct][named-fields]
 
 ## Python
 * Use [Pylint][pylint] on your code
@@ -92,6 +93,7 @@
 [14]: https://docs.travis-ci.com/user/status-images/
 [15]: http://solidity.readthedocs.io/en/develop/style-guide.html
 [16]: https://consensys.github.io/smart-contract-best-practices/
+[named-fields]: https://gobyexample.com/structs
 [solhint]: https://github.com/protofire/solhint
 [PEP8]: https://www.python.org/dev/peps/pep-0008/
 [pylint]: https://www.pylint.org/
