@@ -23,7 +23,8 @@
 ## Go
 
 * [`go fmt` your code][4]
-* Use [`dep`][5] for dependency management
+* Use [`modules`][5] for dependency management
+* Prefer [naming fields while initialising a struct][named-fields]
 
 ## Python
 * Use [Pylint][pylint] on your code
@@ -80,7 +81,7 @@
 [2]: https://help.github.com/articles/signing-commits-using-gpg/
 [3]: http://nvie.com/posts/a-successful-git-branching-model/
 [4]: https://blog.golang.org/go-fmt-your-code
-[5]: https://github.com/golang/dep
+[5]: https://blog.golang.org/using-go-modules
 [6]: https://travis-ci.org/
 [7]: https://www.docker.com/
 [8]: https://hub.docker.com/
@@ -92,6 +93,7 @@
 [14]: https://docs.travis-ci.com/user/status-images/
 [15]: http://solidity.readthedocs.io/en/develop/style-guide.html
 [16]: https://consensys.github.io/smart-contract-best-practices/
+[named-fields]: https://gobyexample.com/structs
 [solhint]: https://github.com/protofire/solhint
 [PEP8]: https://www.python.org/dev/peps/pep-0008/
 [pylint]: https://www.pylint.org/
