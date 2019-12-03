@@ -1,22 +1,29 @@
-### Prerequisites
+## Summary
 
-* [ ] Are you running the latest version?
-* [ ] Are you reporting to the correct repository?
-* [ ] Did you perform a cursory search?
+Describe the issue at a high level, including its impact on end users or the functionality of the system.
 
-For more information, see the [`CONTRIBUTING`](CONTRIBUTING.md) guide.
+## Preconditions
 
-### Description
+List all the relevant information about the runtime environment. This can include:
 
-[Description of the bug or feature]
+* software versions
+* software state or configuration
+* background assumptions
 
-### Steps to Reproduce
+## Steps to Reproduce
 
-1. [First Step]
-2. [Second Step]
-3. [and so on...]
+List a minimal sequence of steps that will cause the issue to manifest itself in the most reliable way.
 
-**Expected behavior:** [What you expected to happen]
+## Expected Result
 
-**Actual behavior:** [What actually happened]
+Describe the outcome that is expected at the end of executing the sequence of steps above. Be specific.
 
+## Actual Result
+
+Describe what actually happens when executing the steps. Insert the relevant output that is actually observed.
+
+## Additional Information
+
+Paste or attach any additional information that will be useful in diagnosing and resolving the issue.
+
+This can include log output and data dumps, and any relevant observations by the bug reporter that are not captured elsewhere.
