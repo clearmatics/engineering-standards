@@ -51,7 +51,7 @@
 * Follow the Solidity [coding style][15]
 * Follow smart contract [best practices][16], tools, engineering convention and other
 * Use [Solhint][solhint] to lint your contracts
-
+* (WIP) Ongoing discussion for coding guidelines and practices - [Solidity Coding Guidelines][17]
 
 ## Testing
 
@@ -93,6 +93,7 @@
 [14]: https://docs.travis-ci.com/user/status-images/
 [15]: http://solidity.readthedocs.io/en/develop/style-guide.html
 [16]: https://consensys.github.io/smart-contract-best-practices/
+[17]: https://docs.google.com/document/d/14tWBud6TnGhMXebhTxjOGEdDj_hNF1FJrQ2m-XD-JlU/edit?usp=sharing
 [named-fields]: https://gobyexample.com/structs
 [solhint]: https://github.com/protofire/solhint
 [PEP8]: https://www.python.org/dev/peps/pep-0008/
@@ -104,3 +105,4 @@
 [mozilla_webcomponents]: https://developer.mozilla.org/en-US/docs/Web/Web_Components
 [githubsignedcommits]: https://help.github.com/articles/enabling-required-commit-signing/
 [sm_desc]: SMART_CONTRACT_DESCRIPTION.md
+
