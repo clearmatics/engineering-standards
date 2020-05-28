@@ -1,5 +1,13 @@
 # Clearmatics Engineering Standards
 
+## Blockchain in house references
+
+Blockchain discussions about approaches and solutions are *always hard* and some good sources to use as _truth_ and tools for thos conversations are:
+
+* [Blockchain terms glossary][glossary]
+* [Autonity Improvement Proposal][aip]
+* Use a [common language][sm_desc] to discuss ideas
+
 ## Git 
 
 * Follow these [seven rules][1] for writing a commit message
@@ -104,3 +112,5 @@
 [mozilla_webcomponents]: https://developer.mozilla.org/en-US/docs/Web/Web_Components
 [githubsignedcommits]: https://help.github.com/articles/enabling-required-commit-signing/
 [sm_desc]: SMART_CONTRACT_DESCRIPTION.md
+[glossary]: https://gitlab.clearmatics.net/clearmatics/Semantica
+[aip]: https://gitlab.clearmatics.net/clearmatics/aips
